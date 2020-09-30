@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.matt3756" name="Arcade Matt" version="3.0" provider-name="">
-    <requires>
-        <import addon="xbmc.python" version="2.25.0"/>
-        <import addon="script.module.routing" version="0.2.0"/>
-        <import addon="script.module.requests" version="2.12.4"/>
-        <import addon="plugin.video.youtube"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="qazwsxedc.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Arcade Matt Youtube</summary>
-        <description lang="en_GB">Hey, I'm Arcade Matt and welcome to my arcade channel! I like to go out to arcades and play the claw machine, some people also call them a skill crane or crane game. I even show tips and tricks on how to win at them! I don't use any cheat or hack, just skill to come out a winner! I enjoy the coin pusher for quarters and bonus coin wins! I'm also a fan of arcade ticket games, found at places like Dave and Busters, Round One, and Tilt arcades. I love to win the arcade jackpot for tons of tickets! I then use my tickets to get awesome prizes like a GoPro, Nintendo Consoles, and more! Jackpot ticket games I enjoy playing are Slam a Winner, Dizzy Chicken, Tower of Tickets, Monster Drop, Pop the Lock, among others! Many of these games are 100% skill! I also enjoy prize games like Stacker, Sega Keymaster, Winner's Cube,  where you can win high end prizes like an Ipad, Xbox, PS4, or even money like a $100 bill! I've also branched out to carnival games and mini golf! SUB TODAY!
-		</description>
-        <language>en pt</language>
-        <platform>all</platform>
-        <license>GPL-3.0</license>
-        <news></news>
-        <disclaimer>The author of this add-on is in no way affiliated with Arcade Matt Youtuber</disclaimer>
-        <assets>
-        <icon>resources/images/icon.png</icon>
-        <fanart>resources/images/fanart.jpg</fanart>
-        </assets>
-    </extension>
+<addon id="plugin.video.sporthdme" name="SportHD" version="0.0.9" provider-name="Bugatsinho">
+  <requires>
+    <import addon="repository.bugatsinho" />
+    <import addon="script.module.dateutil" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SportHD by Bugatsinho</summary>
+    <description lang="en">Sport Streams from SportHD.me</description>
+    <disclaimer lang="en">All the streams on this add-on are hosted on the third party site and uploaded by other people. We are not responsible for any content that hosted on on the third-party sites. If you have any legal issues please contact appropriate video owners hosters.</disclaimer>
+	<language>EN</language>
+    <license>GNU GPL, version 2</license>
+    <twitter>https://twitter.com/Bugatsinho</twitter>
+    <news>-add youtube links support</news>
+  </extension>
 </addon>
 
 <addon id="repository.bang" name="Bang" version="7.0" provider-name="Bang">
